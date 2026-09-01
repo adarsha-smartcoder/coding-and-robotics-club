@@ -1,0 +1,58 @@
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="projects.html">Projects</a>
+<a href="contact.html">Contact</a>
+
+<section class="page-hero">
+    <p class="eyebrow">Contact</p>
+    <h1>Talk to the Club</h1>
+    <p>Use this page to ask about meetings, activities and membership.</p>
+</section>
+
+<section class="page-hero">
+    <p class="eyebrow">Student Work</p>
+    <h1>Projects</h1>
+</section>
+
+<section class="project-list">
+    <article class="project-card">
+        <h2>Smart Garden</h2>
+        <p>A sensor project for monitoring soil conditions.</p>
+    </article>
+    <article class="project-card">
+        <h2>School Website</h2>
+        <p>A responsive information website built by students.</p>
+    </article>
+    <article class="project-card">
+        <h2>Line-Following Robot</h2>
+        <p>A robot programmed to follow a marked path.</p>
+    </article>
+</section>
+
+<section class="contact-section">
+    <div>
+        <p class="eyebrow">Send a Message</p>
+        <h2>Contact Form</h2>
+        <p>Complete all required fields and we will prepare the message in the browser.</p>
+    </div>
+
+    <form id="contactForm">
+        <div class="form-field">
+            <label for="name">Full name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+        </div>
+
+        <div class="form-field">
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+        </div>
+
+        <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+        </div>
+
+        <button type="submit">Send Message</button>
+        <p id="formStatus" role="status" aria-live="polite"></p>
+    </form>
+</section>
